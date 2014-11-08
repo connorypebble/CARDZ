@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "atriix",
+    "longName": "Flander's Field",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "FF",
+    "uuid": "5dce6215-73dd-4d09-b88e-b538d13e83c7",
+    "versionCode": 1,
+    "versionLabel": "1.7",
+    "watchapp": {
+        "watchface": false
+    }
+}
