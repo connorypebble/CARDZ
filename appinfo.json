@@ -1,19 +1,141 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "battery_bar": 14,
+        "battery_card_placement": 22,
+        "batterycardenabled": 5,
+        "bottom_slot": 13,
+        "bt_card_placement": 21,
+        "btcardenabled": 4,
+        "btdisalert": 0,
+        "btrealert": 1,
+        "font_card": 26,
+        "font_date": 25,
+        "icon": 19,
+        "its_text": 12,
+        "language": 3,
+        "note1": 6,
+        "note1_contents": 8,
+        "note1_title": 7,
+        "note2": 9,
+        "note2_contents": 11,
+        "note2_title": 10,
+        "note_1_card_placement": 23,
+        "note_2_card_placement": 24,
+        "temp": 18,
+        "temp_pref": 16,
+        "theme": 2,
+        "update_freq": 17,
+        "weather_card": 15,
+        "weather_card_placement": 20
+    },
     "capabilities": [
-        ""
+        "location",
+        "configurable"
     ],
-    "companyName": "atriix",
-    "longName": "Flander's Field",
+    "companyName": "ConnorJewiss",
+    "longName": "CARDZ",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/snowing.png",
+                "name": "WEATHER_SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/fog.png",
+                "name": "WEATHER_FOG",
+                "type": "png"
+            },
+            {
+                "file": "images/thunder.png",
+                "name": "WEATHER_THUNDER",
+                "type": "png"
+            },
+            {
+                "file": "images/clock_icon.png",
+                "name": "IMAGE_CLOCK_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/cloudy.png",
+                "name": "WEATHER_CLOUDY",
+                "type": "png"
+            },
+            {
+                "file": "images/rain.png",
+                "name": "WEATHER_RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/drizzle.png",
+                "name": "WEATHER_DRIZZLE",
+                "type": "png"
+            },
+            {
+                "file": "images/part_cloud_night.png",
+                "name": "WEATHER_PARTIALLY_CLOUDY_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/partially_cloudy.png",
+                "name": "WEATHER_PARTIALLY_CLOUDY_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/night_clear.png",
+                "name": "WEATHER_CLEAR_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/day_clear.png",
+                "name": "WEATHER_CLEAR_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/notes_icon.png",
+                "name": "IMAGE_NOTES_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/background.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9, :]",
+                "file": "fonts/impact.ttf",
+                "name": "FONT_IMPACT_40",
+                "type": "font"
+            },
+            {
+                "file": "fonts/impact.ttf",
+                "name": "FONT_IMPACT_18",
+                "type": "font"
+            },
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_icon.png",
+                "name": "IMAGE_BLUETOOTH_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/battery_icon.png",
+                "name": "IMAGE_BATTERY_ICON",
+                "type": "png"
+            }
+        ]
     },
-    "shortName": "FF",
-    "uuid": "5dce6215-73dd-4d09-b88e-b538d13e83c7",
-    "versionCode": 1,
-    "versionLabel": "1.7",
+    "shortName": "CARDZ",
+    "uuid": "3783cfbd-6410-4521-a59e-54c6fbf1d00f",
+    "versionCode": 1337,
+    "versionLabel": "1.1",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     }
 }
