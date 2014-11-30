@@ -54,6 +54,9 @@ void tick_handler(struct tm *t, TimeUnits units){
    	}
    	else{
 		strftime(buffer,sizeof(buffer), "%I:%M", t);
+		strftime(time_text, sizeof(time_text), "%I:%M:%S", tick_time);	
+		if (time_text[0] == '0') {
+			memmove(&time_text[0], &time_text[1], sizeof(time_text) - 1); //remove leading zero
    	}	
 	text_layer_set_text(time_layer, buffer);
 	text_layer_set_text(card_time_layer, buffer);
