@@ -96,7 +96,7 @@ void refresh_settings(){
 	layer_set_hidden(text_layer_get_layer(date_layer), settings.bottom_slot);
 	layer_set_hidden(battery_bar_layer, settings.battery_bar);
 
-	static char its_buffer[] = "It's..........";
+	static char its_buffer[] = "The time is...";
 	snprintf(its_buffer, sizeof(its_buffer), "%s", language_data[settings.language][5]);
 	text_layer_set_text(its_layer, its_buffer);
 
@@ -582,7 +582,7 @@ void window_load_main(Window *window){
 	layer_add_child(window_layer, card_time_root);
 
 	card_time_layer = text_layer_init(GRect(80, -205, 40, 18), GTextAlignmentCenter, 1);
-	text_layer_set_text(card_time_layer, "00:00");
+	text_layer_set_text(card_time_layer, "0:00");
 	layer_add_child(window_layer, text_layer_get_layer(card_time_layer));
 
 	icon_layer_bm = bitmap_layer_create(GRect(0, -55, 144, 168));
@@ -602,7 +602,7 @@ void window_load_main(Window *window){
 	layer_add_child(window_layer, time_content_root);
 	
 	time_layer = text_layer_init(GRect(0, 57, 144, 50), GTextAlignmentCenter, 0);
-	text_layer_set_text(time_layer, "00 00");
+	text_layer_set_text(time_layer, "0 00");
 	layer_add_child(time_content_root, text_layer_get_layer(time_layer));
 	
 	its_layer = text_layer_init(GRect(36, 45, 80, 38), GTextAlignmentLeft, 1);
@@ -617,7 +617,7 @@ void window_load_main(Window *window){
 	layer_add_child(time_content_root, text_layer_get_layer(date_layer));
 	
 	card_weather = content_layer_create(window, 1, settings.fonts[1]);
-	content_layer_set_text(card_weather, "Weather", "0 degrees, sunny");
+	content_layer_set_text(card_weather, "Weather", "0 degrees, and, sunny");
 	
 	card_bt = content_layer_create(window, 2, settings.fonts[1]);
 	content_layer_set_text(card_bt, "Bluetooth", "Connected");

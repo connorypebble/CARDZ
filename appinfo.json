@@ -6,7 +6,6 @@
         "bottom_slot": 13,
         "bt_card_placement": 21,
         "btcardenabled": 4,
-        "btdisalert": 0,
         "btrealert": 1,
         "font_card": 26,
         "font_date": 25,
@@ -104,11 +103,13 @@
             },
             {
                 "characterRegex": "[0-9, :]",
+                "compatibility": "2.7",
                 "file": "fonts/impact.ttf",
                 "name": "FONT_IMPACT_40",
                 "type": "font"
             },
             {
+                "compatibility": "2.7",
                 "file": "fonts/impact.ttf",
                 "name": "FONT_IMPACT_18",
                 "type": "font"
@@ -134,7 +135,7 @@
     "shortName": "CARDZ",
     "uuid": "3783cfbd-6410-4521-a59e-54c6fbf1d00f",
     "versionCode": 1337,
-    "versionLabel": "1.1",
+    "versionLabel": "1.37",
     "watchapp": {
         "watchface": true
     }

@@ -1,5 +1,5 @@
 var values = 0;
-var config_url = "http://edwinfinch.github.io/config-hi";
+var config_url = "http://connorypebble.github.io/config-hi";
 var options = JSON.parse(localStorage.getItem('hi_ops'));
 
 Pebble.addEventListener("showConfiguration", function(e) {
@@ -32,7 +32,7 @@ var values = 0;
 
 function iconFromWeatherId(weatherId) {
   if (weatherId > 199 && weatherId < 233) {
-    return 0; //Thunderstorm
+    return 0; //Thunderstorm and possible Lighting
   } 
     else if (weatherId > 299 && weatherId < 322) {
     return 1; //Drizzle
@@ -44,7 +44,7 @@ function iconFromWeatherId(weatherId) {
     return 3; //Snow
   } 
     else if (weatherId > 700 && weatherId < 742) {
-    return 4; //Haze or fog
+    return 4; //Haze or Fog
   }
     else if (weatherId == 800){
     return 5; //Clear
