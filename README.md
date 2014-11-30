@@ -1,4 +1,4 @@
-Flander-s-Field
+CARDZ
 ===============
 
-A simple pebble app that shows the whole of the Flander's Field poem. Needs work because it currently does not work.
+This repository is breaking the law. The original CARDS repository has no license and therefore it is illigal to fork but Connor has done it anyway.
